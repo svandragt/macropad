@@ -11,6 +11,10 @@ Active App Title: Firefox
 Active App Title: Terminal
 ```
 
+### Known issues
+
+1. IntelliJ editors do not broadcast their application name, and their window name does not include the application either. Via the `Wnck.Application.get_pid()` and filtering `ps -p 94452 l | grep idea.platform.prefix=` it should be possible to get the name.
+
 # Others
 
 
