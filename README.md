@@ -6,9 +6,9 @@ Uses Wnck's active-window-changed' event to detect and format the active app. Th
 ```shell
 $ poetry install
 $ poetry run ./active-app.py
-Active App Title: terminal
+Active App Title: Terminal
 Active App Title: Firefox
-Active App Title: terminal
+Active App Title: Terminal
 ```
 
 # Others
